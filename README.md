@@ -59,7 +59,7 @@
     * epochs: 학습 epoch 설정.
     * lr: learning rate 지정.
     * greedy: {0, 1} 중 선택. Greedy search로 답변을 생성하려면 1, 아니면 0으로 설정.
-    * temperature: 1로 설정 시 모델이 내어준 확률을 그대로 이용. 1보다 작을 시 확률의 차이를 좀 더 크게 만들어 다양한 답변을 제한함. 1보다 클 시 확률의 차이를 거의 없게 만들어 다양한 답변을 내어주게 함.
+    * temperature: 1로 설정 시 모델이 내어준 확률을 그대로 이용. 1보다 작을 시 확률의 차이를 좀 더 크게 만들어 덜 다양한 답변을 제한함. 1보다 클 시 확률의 차이를 거의 없게 만들어 다양한 답변을 내어주게 함.
     * topk: 생성시 top-k.
     * topp: 생성시 top-p.
     * early_stop_criterion: Validation set의 최대 accuracy를 내어준 학습 epoch 대비, 설정된 숫자만큼 epoch이 지나도 나아지지 않을 경우 학습 조기 종료.
